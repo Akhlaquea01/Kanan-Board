@@ -75,15 +75,8 @@ function createTicket (ticketColor, ticketDesc, ticketId) {
         ticketDesc
     }
 
-    // let ticketMetadata = {
-    //     "ticketColor": ticketColor,
-    //     "ticketId": ticketId,
-    //     "ticketDesc": ticketDesc
-    // }
-
     
     // if freshly created ticket
-    // then only push to ticketArray
     // otherwise, dont push (case of ticket recreation)
     if (!ticketId) {
         ticketArray.push(ticketMetadata)
